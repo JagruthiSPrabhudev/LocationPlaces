@@ -35,7 +35,7 @@ public class PlaceDetailsActivity extends Activity {
         StringBuilder sb = new StringBuilder("https://maps.googleapis.com/maps/api/place/details/json?");
         sb.append("reference="+reference);
         sb.append("&sensor=true");
-        sb.append("&key=AIzaSyAkPkQLUxwLlVp1hlnFImxzwotv5Wl6ZVg");
+        sb.append("&key=place your key google key here");
 
         // Creating a new non-ui thread task to download Google place details
         PlacesTask placesTask = new PlacesTask();
