@@ -140,7 +140,7 @@ public class MainActivity extends FragmentActivity implements LocationListener{
                     sb.append("&radius=5000");
                     sb.append("&types="+type);
                     sb.append("&sensor=true");
-                    sb.append("&key=AIzaSyB48gEHP-dpkHmvVT6b-5p6LfBIEcUIr44");
+                    sb.append("&key=Place your google api key here");
                     Log.d("sb>>",sb.toString());
 
                     // Creating a new non-ui thread task to download Google place json data
